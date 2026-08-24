@@ -467,7 +467,6 @@ export function resolveVariantParameters(
     )
     if (exact) {
       return buildRequestedModelParams(exact.parameterValues, {
-        reasoningEffort: opts.reasoningEffort,
         maxMode: wantMax,
       })
     }
